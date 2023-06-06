@@ -4,7 +4,3 @@ def islower(c):
         return True
     else:
         return False
-if(islower('A')):
-    print("true")
-else:
-    print("false")
