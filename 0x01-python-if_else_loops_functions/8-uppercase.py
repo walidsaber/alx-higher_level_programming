@@ -5,6 +5,3 @@ def uppercase(str):
             print("{}".format(chr(ord(str[i])-32)), end='')
         elif (i == len(str):
             print("\n")
-        else:
-            print("{}".format(str[i])
-
