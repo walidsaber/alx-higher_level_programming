@@ -3,5 +3,5 @@
 if __name__ == "__main__":
     import os
 
-    text = "#pythoniscool"
+    text = "#pythoniscool\n"
     os.write(1, text.encode())
