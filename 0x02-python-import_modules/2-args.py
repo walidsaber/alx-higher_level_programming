@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    """ count args and prints them"""
     import sys
 
     def args_counts():
