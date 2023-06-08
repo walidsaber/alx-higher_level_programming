@@ -26,5 +26,5 @@ if __name__ == "__main__":
             print("Unknown operator. Available operators: +, -, * and /")
             sys.exit(1)
         result = eval(f"{a} {operator} {b}")
-        print(f"{a} {operator} {b} = {result}")
+        print("{} {} {} = {}".format(a, operator, b, result))
     userinp()
