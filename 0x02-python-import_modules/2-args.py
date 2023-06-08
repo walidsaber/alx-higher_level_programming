@@ -9,9 +9,9 @@ if __name__ == "__main__":
         if argc > 0:
             dot = ":"
         else:
-            dot = ""
+            dot = "."
         print(f"{argc} arguments{dot}")
         for i in range(len(args)):
-            print("i: {args[i]}")
+            print(f"{i+1}: {args[i]}")
 
 args_counts()
