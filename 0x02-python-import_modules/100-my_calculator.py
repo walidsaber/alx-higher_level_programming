@@ -12,15 +12,15 @@ if __name__ == "__main__":
         if arg_count != 3:
             print("Usage: ./100-my_calculator.py <a> <operator> <b>")
             exit(1)
-        a = args[1]
-        b = args[3]
-        if args[2] == "+":
+        a = args[0]
+        b = args[2]
+        if args[1] == "+":
             operator = '+'
-        elif args[2] == "-":
+        elif args[1] == "-":
             operator = '-'
-        elif args[2] == "*":
+        elif args[1] == "*":
             operator = '*'
-        elif args[2] == "/":
+        elif args[1] == "/":
             operator = '/'
         else:
             print("Unknown operator. Available operators: +, -, * and /")
