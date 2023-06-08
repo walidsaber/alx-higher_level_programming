@@ -4,11 +4,11 @@ if __name__ == "__main__":
     """"importing basic calculations"""
     from calculator_1 import add, sub, mul, div
     import sys
-    
+
     def userinp():
         args = sys.argv[1:]
         arg_count = len(args)
-        
+
         if arg_count != 3:
             print("Usage: ./100-my_calculator.py <a> <operator> <b>")
             exit(1)
@@ -28,6 +28,3 @@ if __name__ == "__main__":
         result = eval(f"{a} {operator} {b}")
         print(f"{a} {operator} {b} = {result}")
     userinp()
-        
-        
-    
