@@ -11,6 +11,6 @@ def args_counts():
         dot = ""
     print(f"{argc} arguments{dot}")
     for i in range(len(args)):
-        print("i: {args[i]}")
+        print(f"{i+1}: {args[i]}")
 
 args_counts()
