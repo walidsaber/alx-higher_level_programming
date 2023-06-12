@@ -2,7 +2,8 @@
 
 def multiple_returns(sentence):
     if not sentence:
-        return None
+        sentence[0] = None
+        return sentence
     hold_tuple = ()
     x = len(sentence)
     b = str(sentence[0])
