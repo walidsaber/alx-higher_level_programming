@@ -7,4 +7,6 @@
 
 
 class Rectangle:
+    """ Rectangle"""
+
     pass
