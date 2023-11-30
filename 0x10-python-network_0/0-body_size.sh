@@ -1,3 +1,3 @@
 #!/bin/bash
 # sc
-curl -sI "$1" | grep -i Content-Length | cut -d " " -f
+curl -sI $1 | grep "Content-Length" | cut -d " " -f2
